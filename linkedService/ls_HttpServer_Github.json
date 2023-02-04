@@ -1,0 +1,12 @@
+{
+	"name": "ls_HttpServer_Github",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/sarafupm/adf_adb_project1/raw/main",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
