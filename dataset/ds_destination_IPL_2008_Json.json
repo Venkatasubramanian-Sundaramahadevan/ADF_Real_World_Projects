@@ -1,0 +1,19 @@
+{
+	"name": "ds_destination_IPL_2008_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_AzureDataLakeStorageG2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "IPL_2008.json",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
