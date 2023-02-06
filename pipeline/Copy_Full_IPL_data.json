@@ -32,6 +32,25 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "For each file",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "Lookup all the file names",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Lookup all the file names').output.value",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"annotations": []
