@@ -92,13 +92,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_source_IPL_2008_csv",
+						"referenceName": "ds_source_IPL_2009_csv",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_destination_IPL_2008_Json",
+						"referenceName": "ds_destination_IPL_2009_Json",
 						"type": "DatasetReference"
 					}
 				]
