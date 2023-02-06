@@ -91,7 +91,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"SourceFileName": {
-											"value": "@item().files",
+											"value": "@item().Files",
 											"type": "Expression"
 										}
 									}
@@ -103,7 +103,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"DestinationFileName": {
-											"value": "@replace(item().files, '.csv', '.json')",
+											"value": "@replace(item().Files,'.csv','.json')",
 											"type": "Expression"
 										}
 									}
